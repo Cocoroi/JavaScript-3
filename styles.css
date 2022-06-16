@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    background-color: lightgrey;
+}
+
+select {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    color: #FFF;
+    background-color: rgba(38,38,38,0.5);
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+
+.ui-menu-item:hover {
+    background-color : #FFF !important;
+}
+
+li {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+body {
+    background-color: #dbf6e9;
+    color: #31326f;
+    text-align : center;
+}
+
+.jumbotron {
+    background-color: #ffdada;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.card {
+    background-color: #9ddfd3;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
